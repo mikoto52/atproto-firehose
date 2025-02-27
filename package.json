@@ -39,9 +39,11 @@
   },
   "dependencies": {
     "@atproto/api": "^0.3.12",
-    "@atproto/common": "^0.2.0",
+    "@atproto/common": "^0.4.7",
     "@atproto/identity": "^0.0.1",
     "@atproto/lexicon": "^0.1.0",
+    "@atproto/sync": "^0.1.12",
+    "@atproto/xrpc-server": "^0.7.0",
     "@ipld/car": "^3.2.3",
     "@ipld/dag-cbor": "^7.0.0",
     "cbor": "^9.0.0",
