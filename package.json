@@ -1,11 +1,11 @@
 {
-  "name": "atproto-firehose",
-  "version": "0.2.2",
+  "name": "@teamast/atproto-firehose",
+  "version": "0.2.3",
   "description": "AT Protocol Event Stream Client",
   "main": "dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "bin": {
-    "af": "./dist/bin/cli.js"
+    "af": "dist/bin/cli.js"
   },
   "files": [
     "dist"
@@ -55,5 +55,9 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.7",
     "utf-8-validate": "^6.0.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kcchu/atproto-firehose/issues"
+  },
+  "homepage": "https://github.com/kcchu/atproto-firehose#readme"
 }
